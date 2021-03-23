@@ -1,3 +1,0 @@
--tener posición actual-
-parámetro input keywords
-ordenar salidas por rating
