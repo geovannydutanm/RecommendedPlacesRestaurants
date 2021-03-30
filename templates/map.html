@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_3a7261a4e7e24c128f989c6729a422d1 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_3a7261a4e7e24c128f989c6729a422d1" ></div>
+        
+</body>
+<script>    
+    
+            var map_3a7261a4e7e24c128f989c6729a422d1 = L.map(
+                "map_3a7261a4e7e24c128f989c6729a422d1",
+                {
+                    center: [39.4755658, -0.3466063],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 17,
+                    zoomControl: true,
+                    preferCanvas: false,
+                    worldCopyJump: true,
+                    noWrap: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_c3bc4014de604355a819fb3d4b395e16 = L.tileLayer(
+                "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_3a7261a4e7e24c128f989c6729a422d1);
+        
+    
+            var marker_f72b9afd5f214600ab86dc3cc5e57158 = L.marker(
+                [39.4755658, -0.3466063],
+                {}
+            ).addTo(map_3a7261a4e7e24c128f989c6729a422d1);
+        
+    
+        var popup_e99d97d5d295415a8a290fbd218041ea = L.popup({"maxWidth": "100%"});
+
+        
+            var html_178c42187ab9484d994cf2cf69bd3210 = $(`<div id="html_178c42187ab9484d994cf2cf69bd3210" style="width: 100.0%; height: 100.0%;">ESTOY AQUI</div>`)[0];
+            popup_e99d97d5d295415a8a290fbd218041ea.setContent(html_178c42187ab9484d994cf2cf69bd3210);
+        
+
+        marker_f72b9afd5f214600ab86dc3cc5e57158.bindPopup(popup_e99d97d5d295415a8a290fbd218041ea)
+        ;
+
+        
+    
+    
+            var marker_672bfd57936a4cbda75f2adf6b33a938 = L.marker(
+                [39.4736814, -0.3445132],
+                {}
+            ).addTo(map_3a7261a4e7e24c128f989c6729a422d1);
+        
+    
+            var icon_f262fbbdaf234ac8904a905fc58207f8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_672bfd57936a4cbda75f2adf6b33a938.setIcon(icon_f262fbbdaf234ac8904a905fc58207f8);
+        
+    
+        var popup_78ee7b613695486e8ed3fb1b7ce0525c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_83ffd158d9ad44cdbd861ba56470358e = $(`<div id="html_83ffd158d9ad44cdbd861ba56470358e" style="width: 100.0%; height: 100.0%;">Pasta Nostra Catarroja CERRADO Ranking: 5 - 2 reseña(s)  </div>`)[0];
+            popup_78ee7b613695486e8ed3fb1b7ce0525c.setContent(html_83ffd158d9ad44cdbd861ba56470358e);
+        
+
+        marker_672bfd57936a4cbda75f2adf6b33a938.bindPopup(popup_78ee7b613695486e8ed3fb1b7ce0525c)
+        ;
+
+        
+    
+    
+            var marker_d2e865d949c042899e1347dc94eeb954 = L.marker(
+                [39.4755658, -0.3466063],
+                {}
+            ).addTo(map_3a7261a4e7e24c128f989c6729a422d1);
+        
+    
+        var popup_80636efaf58b4eddb5d567b6c62df5a5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7963b8eeaf59475782df1c9e562314d2 = $(`<div id="html_7963b8eeaf59475782df1c9e562314d2" style="width: 100.0%; height: 100.0%;">ESTOY AQUI</div>`)[0];
+            popup_80636efaf58b4eddb5d567b6c62df5a5.setContent(html_7963b8eeaf59475782df1c9e562314d2);
+        
+
+        marker_d2e865d949c042899e1347dc94eeb954.bindPopup(popup_80636efaf58b4eddb5d567b6c62df5a5)
+        ;
+
+        
+    
+    
+            var marker_dbd6a5cc887f4eefb4bfc8d225917ac8 = L.marker(
+                [39.4739418, -0.3493277],
+                {}
+            ).addTo(map_3a7261a4e7e24c128f989c6729a422d1);
+        
+    
+            var icon_907f0b6a411a431ba8846db34bc03f30 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_dbd6a5cc887f4eefb4bfc8d225917ac8.setIcon(icon_907f0b6a411a431ba8846db34bc03f30);
+        
+    
+        var popup_fda7a356a1cf46a9a0d83d7043259bdd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cd867de5763a4c7fb45cf800f47cf435 = $(`<div id="html_cd867de5763a4c7fb45cf800f47cf435" style="width: 100.0%; height: 100.0%;">Oragù LasagnaBar CERRADO Ranking: 4.6 - 143 reseña(s)  </div>`)[0];
+            popup_fda7a356a1cf46a9a0d83d7043259bdd.setContent(html_cd867de5763a4c7fb45cf800f47cf435);
+        
+
+        marker_dbd6a5cc887f4eefb4bfc8d225917ac8.bindPopup(popup_fda7a356a1cf46a9a0d83d7043259bdd)
+        ;
+
+        
+    
+    
+            var marker_e274df1fbf82478c964403678331533a = L.marker(
+                [39.4755658, -0.3466063],
+                {}
+            ).addTo(map_3a7261a4e7e24c128f989c6729a422d1);
+        
+    
+        var popup_4a4874ac47d54469b18f190f28e8ee51 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bf1c895c57694976a6bc82138e8d8618 = $(`<div id="html_bf1c895c57694976a6bc82138e8d8618" style="width: 100.0%; height: 100.0%;">ESTOY AQUI</div>`)[0];
+            popup_4a4874ac47d54469b18f190f28e8ee51.setContent(html_bf1c895c57694976a6bc82138e8d8618);
+        
+
+        marker_e274df1fbf82478c964403678331533a.bindPopup(popup_4a4874ac47d54469b18f190f28e8ee51)
+        ;
+
+        
+    
+    
+            var marker_4e5f7058f60b4ba985a447aa51aa77e0 = L.marker(
+                [39.4747551, -0.3488307],
+                {}
+            ).addTo(map_3a7261a4e7e24c128f989c6729a422d1);
+        
+    
+            var icon_b853c8cc936e48a6b8903585d1d297b2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "remove-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4e5f7058f60b4ba985a447aa51aa77e0.setIcon(icon_b853c8cc936e48a6b8903585d1d297b2);
+        
+    
+        var popup_6a18a841faf9421b9ac22c89687c4294 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ba98d291139b4147b4d09a473ae31642 = $(`<div id="html_ba98d291139b4147b4d09a473ae31642" style="width: 100.0%; height: 100.0%;">POMODORO (Av.Blasco Ibañez 73) CERRADO Ranking: 3.9 - 1171 reseña(s)  </div>`)[0];
+            popup_6a18a841faf9421b9ac22c89687c4294.setContent(html_ba98d291139b4147b4d09a473ae31642);
+        
+
+        marker_4e5f7058f60b4ba985a447aa51aa77e0.bindPopup(popup_6a18a841faf9421b9ac22c89687c4294)
+        ;
+
+        
+    
+    
+            var marker_4bbb8ca746e6482c83489bbc1394ba95 = L.marker(
+                [39.4755658, -0.3466063],
+                {}
+            ).addTo(map_3a7261a4e7e24c128f989c6729a422d1);
+        
+    
+        var popup_d4e7409ac5fc4750b4ac6b9491ec107b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b64fdb727a80407382c67903e14ec292 = $(`<div id="html_b64fdb727a80407382c67903e14ec292" style="width: 100.0%; height: 100.0%;">ESTOY AQUI</div>`)[0];
+            popup_d4e7409ac5fc4750b4ac6b9491ec107b.setContent(html_b64fdb727a80407382c67903e14ec292);
+        
+
+        marker_4bbb8ca746e6482c83489bbc1394ba95.bindPopup(popup_d4e7409ac5fc4750b4ac6b9491ec107b)
+        ;
+
+        
+    
+    
+            var marker_27a07436e6fe41efa3abd3bd4d13f482 = L.marker(
+                [39.4730685, -0.3484711],
+                {}
+            ).addTo(map_3a7261a4e7e24c128f989c6729a422d1);
+        
+    
+            var icon_f6678b54490f4e7b9b592897548b1dfb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_27a07436e6fe41efa3abd3bd4d13f482.setIcon(icon_f6678b54490f4e7b9b592897548b1dfb);
+        
+    
+        var popup_020bd28878ff45be9150beb54ffad0d3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c4cd155406a4439bb9ae445279f31813 = $(`<div id="html_c4cd155406a4439bb9ae445279f31813" style="width: 100.0%; height: 100.0%;">Trattoria napoletana da Carlo CERRADO Ranking: 4.1 - 429 reseña(s)  </div>`)[0];
+            popup_020bd28878ff45be9150beb54ffad0d3.setContent(html_c4cd155406a4439bb9ae445279f31813);
+        
+
+        marker_27a07436e6fe41efa3abd3bd4d13f482.bindPopup(popup_020bd28878ff45be9150beb54ffad0d3)
+        ;
+
+        
+    
+    
+            var marker_8e5b5890babb400eb54328247577475d = L.marker(
+                [39.4755658, -0.3466063],
+                {}
+            ).addTo(map_3a7261a4e7e24c128f989c6729a422d1);
+        
+    
+        var popup_0f6b3d2568b54bfbb3c30b1b840f3968 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_35103b7cd6104b6d87fc55386483be1f = $(`<div id="html_35103b7cd6104b6d87fc55386483be1f" style="width: 100.0%; height: 100.0%;">ESTOY AQUI</div>`)[0];
+            popup_0f6b3d2568b54bfbb3c30b1b840f3968.setContent(html_35103b7cd6104b6d87fc55386483be1f);
+        
+
+        marker_8e5b5890babb400eb54328247577475d.bindPopup(popup_0f6b3d2568b54bfbb3c30b1b840f3968)
+        ;
+
+        
+    
+    
+            var marker_40a736d990ce4c0cbcde51287c0050c5 = L.marker(
+                [39.4777082, -0.352568],
+                {}
+            ).addTo(map_3a7261a4e7e24c128f989c6729a422d1);
+        
+    
+            var icon_fb315bc1a4fa442aa9560075c960bcd3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_40a736d990ce4c0cbcde51287c0050c5.setIcon(icon_fb315bc1a4fa442aa9560075c960bcd3);
+        
+    
+        var popup_5c2670c4cacf4fd1b570c0aaeba97001 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_da1e9f00721d43438f27ba4c612a91ec = $(`<div id="html_da1e9f00721d43438f27ba4c612a91ec" style="width: 100.0%; height: 100.0%;">La Locanda di Vera CERRADO Ranking: 4.6 - 27 reseña(s)  </div>`)[0];
+            popup_5c2670c4cacf4fd1b570c0aaeba97001.setContent(html_da1e9f00721d43438f27ba4c612a91ec);
+        
+
+        marker_40a736d990ce4c0cbcde51287c0050c5.bindPopup(popup_5c2670c4cacf4fd1b570c0aaeba97001)
+        ;
+
+        
+    
+    
+            var marker_c293a131b31146e0ae7c94779281288b = L.marker(
+                [39.4755658, -0.3466063],
+                {}
+            ).addTo(map_3a7261a4e7e24c128f989c6729a422d1);
+        
+    
+        var popup_b440c03c702b465384265eca015ab353 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_340d25aa35094f21987ae0eee04af493 = $(`<div id="html_340d25aa35094f21987ae0eee04af493" style="width: 100.0%; height: 100.0%;">ESTOY AQUI</div>`)[0];
+            popup_b440c03c702b465384265eca015ab353.setContent(html_340d25aa35094f21987ae0eee04af493);
+        
+
+        marker_c293a131b31146e0ae7c94779281288b.bindPopup(popup_b440c03c702b465384265eca015ab353)
+        ;
+
+        
+    
+    
+            var marker_4606dce23fde41a399af2a757d552bdc = L.marker(
+                [39.47323, -0.343657],
+                {}
+            ).addTo(map_3a7261a4e7e24c128f989c6729a422d1);
+        
+    
+            var icon_8c92c9b75776413c9fa654112c7f3509 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "remove-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4606dce23fde41a399af2a757d552bdc.setIcon(icon_8c92c9b75776413c9fa654112c7f3509);
+        
+    
+        var popup_30fcdf57f38a407788f81284758b5cdd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_042e8603cfc64439b2c1551e0a2e82ff = $(`<div id="html_042e8603cfc64439b2c1551e0a2e82ff" style="width: 100.0%; height: 100.0%;">Low Cost Pizza CERRADO Ranking: 3.7 - 1236 reseña(s)  </div>`)[0];
+            popup_30fcdf57f38a407788f81284758b5cdd.setContent(html_042e8603cfc64439b2c1551e0a2e82ff);
+        
+
+        marker_4606dce23fde41a399af2a757d552bdc.bindPopup(popup_30fcdf57f38a407788f81284758b5cdd)
+        ;
+
+        
+    
+    
+            var marker_fa6131ab95864e24ba188fb38aeec8e5 = L.marker(
+                [39.4755658, -0.3466063],
+                {}
+            ).addTo(map_3a7261a4e7e24c128f989c6729a422d1);
+        
+    
+        var popup_5c5728c467744448a27499af381bdcc2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cba766b4cb1a4a52b42121b59e27227d = $(`<div id="html_cba766b4cb1a4a52b42121b59e27227d" style="width: 100.0%; height: 100.0%;">ESTOY AQUI</div>`)[0];
+            popup_5c5728c467744448a27499af381bdcc2.setContent(html_cba766b4cb1a4a52b42121b59e27227d);
+        
+
+        marker_fa6131ab95864e24ba188fb38aeec8e5.bindPopup(popup_5c5728c467744448a27499af381bdcc2)
+        ;
+
+        
+    
+    
+            var marker_c6c34495288644d1a0e4066502c40e69 = L.marker(
+                [39.4770135, -0.3486637],
+                {}
+            ).addTo(map_3a7261a4e7e24c128f989c6729a422d1);
+        
+    
+            var icon_67dddf85208b4e0faa8589552bc9ace6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c6c34495288644d1a0e4066502c40e69.setIcon(icon_67dddf85208b4e0faa8589552bc9ace6);
+        
+    
+        var popup_a3226b00cef046ab89ec44afcdc90cd7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_635a0593cb85400091ddc3b9dc652234 = $(`<div id="html_635a0593cb85400091ddc3b9dc652234" style="width: 100.0%; height: 100.0%;">Azzurro Restaurante Valencia CERRADO Ranking: 4.5 - 181 reseña(s)  </div>`)[0];
+            popup_a3226b00cef046ab89ec44afcdc90cd7.setContent(html_635a0593cb85400091ddc3b9dc652234);
+        
+
+        marker_c6c34495288644d1a0e4066502c40e69.bindPopup(popup_a3226b00cef046ab89ec44afcdc90cd7)
+        ;
+
+        
+    
+    
+            var marker_dbe63c18db9d4f31859b9626ada3f8f8 = L.marker(
+                [39.4755658, -0.3466063],
+                {}
+            ).addTo(map_3a7261a4e7e24c128f989c6729a422d1);
+        
+    
+        var popup_940b5e65b5144c1e95837303c2ee4769 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_764f5839a9074ad78d3f3907a1df2872 = $(`<div id="html_764f5839a9074ad78d3f3907a1df2872" style="width: 100.0%; height: 100.0%;">ESTOY AQUI</div>`)[0];
+            popup_940b5e65b5144c1e95837303c2ee4769.setContent(html_764f5839a9074ad78d3f3907a1df2872);
+        
+
+        marker_dbe63c18db9d4f31859b9626ada3f8f8.bindPopup(popup_940b5e65b5144c1e95837303c2ee4769)
+        ;
+
+        
+    
+    
+            var marker_8e8135524d364e0e9ec7c52c8265c625 = L.marker(
+                [39.4753532, -0.3485845],
+                {}
+            ).addTo(map_3a7261a4e7e24c128f989c6729a422d1);
+        
+    
+            var icon_668869b30c4342e68e855188884bf527 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8e8135524d364e0e9ec7c52c8265c625.setIcon(icon_668869b30c4342e68e855188884bf527);
+        
+    
+        var popup_6236aec0c799452eb7052030952a3eab = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8fedec5e7c7a45e4817773e5df8e1606 = $(`<div id="html_8fedec5e7c7a45e4817773e5df8e1606" style="width: 100.0%; height: 100.0%;">BASTARD Coffee & Kitchen Zona Xúquer ABIERTO Ranking: 4.1 - 2220 reseña(s)  </div>`)[0];
+            popup_6236aec0c799452eb7052030952a3eab.setContent(html_8fedec5e7c7a45e4817773e5df8e1606);
+        
+
+        marker_8e8135524d364e0e9ec7c52c8265c625.bindPopup(popup_6236aec0c799452eb7052030952a3eab)
+        ;
+
+        
+    
+    
+            var marker_2c0f6746125840809dd081f823c19ef8 = L.marker(
+                [39.4755658, -0.3466063],
+                {}
+            ).addTo(map_3a7261a4e7e24c128f989c6729a422d1);
+        
+    
+        var popup_c911564f37624d819c6260eb659ac6a4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cc32dfd3a3ff4aebaba30ca2280c8b1f = $(`<div id="html_cc32dfd3a3ff4aebaba30ca2280c8b1f" style="width: 100.0%; height: 100.0%;">ESTOY AQUI</div>`)[0];
+            popup_c911564f37624d819c6260eb659ac6a4.setContent(html_cc32dfd3a3ff4aebaba30ca2280c8b1f);
+        
+
+        marker_2c0f6746125840809dd081f823c19ef8.bindPopup(popup_c911564f37624d819c6260eb659ac6a4)
+        ;
+
+        
+    
+    
+            var marker_0fee192042484aa3b357fb8a66719bac = L.marker(
+                [39.4741381, -0.3441636],
+                {}
+            ).addTo(map_3a7261a4e7e24c128f989c6729a422d1);
+        
+    
+            var icon_c09872eb4ded40f99f82a08a3e56dc7d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0fee192042484aa3b357fb8a66719bac.setIcon(icon_c09872eb4ded40f99f82a08a3e56dc7d);
+        
+    
+        var popup_07583ea6b1294486be56798eaa2db777 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_04210a3201514a81bcb33cf10dc99763 = $(`<div id="html_04210a3201514a81bcb33cf10dc99763" style="width: 100.0%; height: 100.0%;">La Divina CERRADO Ranking: 4.3 - 130 reseña(s)  </div>`)[0];
+            popup_07583ea6b1294486be56798eaa2db777.setContent(html_04210a3201514a81bcb33cf10dc99763);
+        
+
+        marker_0fee192042484aa3b357fb8a66719bac.bindPopup(popup_07583ea6b1294486be56798eaa2db777)
+        ;
+
+        
+    
+    
+            var marker_b032747af98e4424883bc1e533d3caea = L.marker(
+                [39.4755658, -0.3466063],
+                {}
+            ).addTo(map_3a7261a4e7e24c128f989c6729a422d1);
+        
+    
+        var popup_a6d8382943824a8181aab3cc18f62911 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4d40673baca14641be884f130c2b0b01 = $(`<div id="html_4d40673baca14641be884f130c2b0b01" style="width: 100.0%; height: 100.0%;">ESTOY AQUI</div>`)[0];
+            popup_a6d8382943824a8181aab3cc18f62911.setContent(html_4d40673baca14641be884f130c2b0b01);
+        
+
+        marker_b032747af98e4424883bc1e533d3caea.bindPopup(popup_a6d8382943824a8181aab3cc18f62911)
+        ;
+
+        
+    
+    
+            var marker_635d0ab84f24426a94b12b88308617dc = L.marker(
+                [39.4708262, -0.3467895],
+                {}
+            ).addTo(map_3a7261a4e7e24c128f989c6729a422d1);
+        
+    
+            var icon_6599c79704374f10b6c5fd4614815471 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_635d0ab84f24426a94b12b88308617dc.setIcon(icon_6599c79704374f10b6c5fd4614815471);
+        
+    
+        var popup_2a886909fda74ecf984fd2d9da085a4a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_22d4d132eae14a888d5572c0cfacfcac = $(`<div id="html_22d4d132eae14a888d5572c0cfacfcac" style="width: 100.0%; height: 100.0%;">La Percanta CERRADO Ranking: 4.4 - 353 reseña(s)  </div>`)[0];
+            popup_2a886909fda74ecf984fd2d9da085a4a.setContent(html_22d4d132eae14a888d5572c0cfacfcac);
+        
+
+        marker_635d0ab84f24426a94b12b88308617dc.bindPopup(popup_2a886909fda74ecf984fd2d9da085a4a)
+        ;
+
+        
+    
+    
+            var marker_293c88ab5a034079bb70780b5eedc30a = L.marker(
+                [39.4755658, -0.3466063],
+                {}
+            ).addTo(map_3a7261a4e7e24c128f989c6729a422d1);
+        
+    
+        var popup_48abf977f255405593189760218ebc42 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_437e390a47f94e748e52329d89f85793 = $(`<div id="html_437e390a47f94e748e52329d89f85793" style="width: 100.0%; height: 100.0%;">ESTOY AQUI</div>`)[0];
+            popup_48abf977f255405593189760218ebc42.setContent(html_437e390a47f94e748e52329d89f85793);
+        
+
+        marker_293c88ab5a034079bb70780b5eedc30a.bindPopup(popup_48abf977f255405593189760218ebc42)
+        ;
+
+        
+    
+    
+            var marker_0adaf52f4c2d4852bfbd4ea183b7eff7 = L.marker(
+                [39.4761519, -0.3509618],
+                {}
+            ).addTo(map_3a7261a4e7e24c128f989c6729a422d1);
+        
+    
+            var icon_58fbfb4315f1428d840addae7972a44e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0adaf52f4c2d4852bfbd4ea183b7eff7.setIcon(icon_58fbfb4315f1428d840addae7972a44e);
+        
+    
+        var popup_f483b567a13b423e93654d95a1a661ec = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9b64c0ab8733488e9efbdc1bba256c56 = $(`<div id="html_9b64c0ab8733488e9efbdc1bba256c56" style="width: 100.0%; height: 100.0%;">La Glotonería Italiana CERRADO Ranking: 4.9 - 68 reseña(s)  </div>`)[0];
+            popup_f483b567a13b423e93654d95a1a661ec.setContent(html_9b64c0ab8733488e9efbdc1bba256c56);
+        
+
+        marker_0adaf52f4c2d4852bfbd4ea183b7eff7.bindPopup(popup_f483b567a13b423e93654d95a1a661ec)
+        ;
+
+        
+    
+    
+            var marker_f2babb9dc80444a8a4eecfde8ba64ccb = L.marker(
+                [39.4755658, -0.3466063],
+                {}
+            ).addTo(map_3a7261a4e7e24c128f989c6729a422d1);
+        
+    
+        var popup_4173860df84b48988949f1d14befff0b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2275f8e7f7144201a66410e5b5b01507 = $(`<div id="html_2275f8e7f7144201a66410e5b5b01507" style="width: 100.0%; height: 100.0%;">ESTOY AQUI</div>`)[0];
+            popup_4173860df84b48988949f1d14befff0b.setContent(html_2275f8e7f7144201a66410e5b5b01507);
+        
+
+        marker_f2babb9dc80444a8a4eecfde8ba64ccb.bindPopup(popup_4173860df84b48988949f1d14befff0b)
+        ;
+
+        
+    
+    
+            var marker_d26c0a960ed14b7daa27d877493caf0f = L.marker(
+                [39.4758333, -0.35],
+                {}
+            ).addTo(map_3a7261a4e7e24c128f989c6729a422d1);
+        
+    
+            var icon_f464ad017c4f4737a42a0331d3bfee71 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d26c0a960ed14b7daa27d877493caf0f.setIcon(icon_f464ad017c4f4737a42a0331d3bfee71);
+        
+    
+        var popup_c9aa5b1aa1cd425084971dae2086892c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b38e632ed77d4c59826d7dbeb5e9762f = $(`<div id="html_b38e632ed77d4c59826d7dbeb5e9762f" style="width: 100.0%; height: 100.0%;">Pizza Swift CERRADO Ranking: 4.3 - 724 reseña(s)  </div>`)[0];
+            popup_c9aa5b1aa1cd425084971dae2086892c.setContent(html_b38e632ed77d4c59826d7dbeb5e9762f);
+        
+
+        marker_d26c0a960ed14b7daa27d877493caf0f.bindPopup(popup_c9aa5b1aa1cd425084971dae2086892c)
+        ;
+
+        
+    
+    
+            var marker_6f84a40398ac49dc85f309fe09081e4e = L.marker(
+                [39.4755658, -0.3466063],
+                {}
+            ).addTo(map_3a7261a4e7e24c128f989c6729a422d1);
+        
+    
+        var popup_0722f7e3656b4dd9ad79e32a62f4d379 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bbcb83cea0b34f34b4f812d2b00b2b38 = $(`<div id="html_bbcb83cea0b34f34b4f812d2b00b2b38" style="width: 100.0%; height: 100.0%;">ESTOY AQUI</div>`)[0];
+            popup_0722f7e3656b4dd9ad79e32a62f4d379.setContent(html_bbcb83cea0b34f34b4f812d2b00b2b38);
+        
+
+        marker_6f84a40398ac49dc85f309fe09081e4e.bindPopup(popup_0722f7e3656b4dd9ad79e32a62f4d379)
+        ;
+
+        
+    
+    
+            var marker_8b3bba96e00b411d806d55e9df553707 = L.marker(
+                [39.4739744, -0.3462873],
+                {}
+            ).addTo(map_3a7261a4e7e24c128f989c6729a422d1);
+        
+    
+            var icon_b39f197587684ecf8b89243b858d48f3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "remove-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8b3bba96e00b411d806d55e9df553707.setIcon(icon_b39f197587684ecf8b89243b858d48f3);
+        
+    
+        var popup_eaf71b09aa084d98a554b755c7f1a529 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c32a40952cc0404798f653affdf85967 = $(`<div id="html_c32a40952cc0404798f653affdf85967" style="width: 100.0%; height: 100.0%;">La Fratelli Pizzería CERRADO Ranking: 3.8 - 128 reseña(s)  </div>`)[0];
+            popup_eaf71b09aa084d98a554b755c7f1a529.setContent(html_c32a40952cc0404798f653affdf85967);
+        
+
+        marker_8b3bba96e00b411d806d55e9df553707.bindPopup(popup_eaf71b09aa084d98a554b755c7f1a529)
+        ;
+
+        
+    
+    
+            var marker_530e6e76c5da4431988e9f6fbd89cfd9 = L.marker(
+                [39.4755658, -0.3466063],
+                {}
+            ).addTo(map_3a7261a4e7e24c128f989c6729a422d1);
+        
+    
+        var popup_44ee8de6d74d4d1a92246dd90308a698 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_31cb8ae2bdf0438fb2d0456f891a62bf = $(`<div id="html_31cb8ae2bdf0438fb2d0456f891a62bf" style="width: 100.0%; height: 100.0%;">ESTOY AQUI</div>`)[0];
+            popup_44ee8de6d74d4d1a92246dd90308a698.setContent(html_31cb8ae2bdf0438fb2d0456f891a62bf);
+        
+
+        marker_530e6e76c5da4431988e9f6fbd89cfd9.bindPopup(popup_44ee8de6d74d4d1a92246dd90308a698)
+        ;
+
+        
+    
+    
+            var marker_eb9acd946578429184667e84bfbbea41 = L.marker(
+                [39.4745942, -0.3522162],
+                {}
+            ).addTo(map_3a7261a4e7e24c128f989c6729a422d1);
+        
+    
+            var icon_e8704dd395a14ddf8759f859fcb7ae00 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_eb9acd946578429184667e84bfbbea41.setIcon(icon_e8704dd395a14ddf8759f859fcb7ae00);
+        
+    
+        var popup_17dee6de963c4d358d4bebe18c0b8011 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9023a502b43a4c89911d39fa2a10de1a = $(`<div id="html_9023a502b43a4c89911d39fa2a10de1a" style="width: 100.0%; height: 100.0%;">La Bonarda Pizzeria CERRADO Ranking: 4.4 - 158 reseña(s)  </div>`)[0];
+            popup_17dee6de963c4d358d4bebe18c0b8011.setContent(html_9023a502b43a4c89911d39fa2a10de1a);
+        
+
+        marker_eb9acd946578429184667e84bfbbea41.bindPopup(popup_17dee6de963c4d358d4bebe18c0b8011)
+        ;
+
+        
+    
+    
+            var marker_0f91f2d890a449b3972fe41e996a7867 = L.marker(
+                [39.4755658, -0.3466063],
+                {}
+            ).addTo(map_3a7261a4e7e24c128f989c6729a422d1);
+        
+    
+        var popup_25ecb2b8a6a546d09dc8993b50afa0cd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a5245df0c8f94b5ebd0be59a50a17188 = $(`<div id="html_a5245df0c8f94b5ebd0be59a50a17188" style="width: 100.0%; height: 100.0%;">ESTOY AQUI</div>`)[0];
+            popup_25ecb2b8a6a546d09dc8993b50afa0cd.setContent(html_a5245df0c8f94b5ebd0be59a50a17188);
+        
+
+        marker_0f91f2d890a449b3972fe41e996a7867.bindPopup(popup_25ecb2b8a6a546d09dc8993b50afa0cd)
+        ;
+
+        
+    
+    
+            var marker_5ee1e9552c3742c68ab99d19e7404b47 = L.marker(
+                [39.4737507, -0.3487474],
+                {}
+            ).addTo(map_3a7261a4e7e24c128f989c6729a422d1);
+        
+    
+            var icon_f5b6ef7726d84d069c5dde95f496b19d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5ee1e9552c3742c68ab99d19e7404b47.setIcon(icon_f5b6ef7726d84d069c5dde95f496b19d);
+        
+    
+        var popup_492ea425983544ed87da8b202b10687d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bcc328f196e64011a9901c8b9339197c = $(`<div id="html_bcc328f196e64011a9901c8b9339197c" style="width: 100.0%; height: 100.0%;">Del Poble Pizzeria CERRADO Ranking: 4.4 - 123 reseña(s)  </div>`)[0];
+            popup_492ea425983544ed87da8b202b10687d.setContent(html_bcc328f196e64011a9901c8b9339197c);
+        
+
+        marker_5ee1e9552c3742c68ab99d19e7404b47.bindPopup(popup_492ea425983544ed87da8b202b10687d)
+        ;
+
+        
+    
+    
+            var marker_d11fed79139949bca8d15886c864620d = L.marker(
+                [39.4755658, -0.3466063],
+                {}
+            ).addTo(map_3a7261a4e7e24c128f989c6729a422d1);
+        
+    
+        var popup_e65846307885477f9d53818c93328150 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_02f2acf37c174849b959328c33d57faa = $(`<div id="html_02f2acf37c174849b959328c33d57faa" style="width: 100.0%; height: 100.0%;">ESTOY AQUI</div>`)[0];
+            popup_e65846307885477f9d53818c93328150.setContent(html_02f2acf37c174849b959328c33d57faa);
+        
+
+        marker_d11fed79139949bca8d15886c864620d.bindPopup(popup_e65846307885477f9d53818c93328150)
+        ;
+
+        
+    
+    
+            var marker_4977661c2ff248c9ab3b9e36525bd03c = L.marker(
+                [39.474624, -0.34639],
+                {}
+            ).addTo(map_3a7261a4e7e24c128f989c6729a422d1);
+        
+    
+            var icon_09b7147bfe304396aac12067f03d9810 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4977661c2ff248c9ab3b9e36525bd03c.setIcon(icon_09b7147bfe304396aac12067f03d9810);
+        
+    
+        var popup_bb70e82ece7b422e922cfeb26cf7e05e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1b52cc7b04eb4663af768850137faccb = $(`<div id="html_1b52cc7b04eb4663af768850137faccb" style="width: 100.0%; height: 100.0%;">El Garatge CERRADO Ranking: 4.5 - 492 reseña(s)  </div>`)[0];
+            popup_bb70e82ece7b422e922cfeb26cf7e05e.setContent(html_1b52cc7b04eb4663af768850137faccb);
+        
+
+        marker_4977661c2ff248c9ab3b9e36525bd03c.bindPopup(popup_bb70e82ece7b422e922cfeb26cf7e05e)
+        ;
+
+        
+    
+</script>
