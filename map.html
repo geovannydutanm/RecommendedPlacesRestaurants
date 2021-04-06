@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_df4c257ce0e845febb7f22f3cdbe1cb6 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_df4c257ce0e845febb7f22f3cdbe1cb6" ></div>
+        
+</body>
+<script>    
+    
+            var map_df4c257ce0e845febb7f22f3cdbe1cb6 = L.map(
+                "map_df4c257ce0e845febb7f22f3cdbe1cb6",
+                {
+                    center: [39.4755658, -0.3466063],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 17,
+                    zoomControl: true,
+                    preferCanvas: false,
+                    worldCopyJump: true,
+                    noWrap: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_8a42be2fb86e4eeaa3299a00088f6b08 = L.tileLayer(
+                "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_df4c257ce0e845febb7f22f3cdbe1cb6);
+        
+    
+            var circle_ecf69fe4618d4aa1b74f572ba93b5833 = L.circle(
+                [39.4755658, -0.3466063],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_df4c257ce0e845febb7f22f3cdbe1cb6);
+        
+    
+        var popup_c2dc5d26d58e41748b3d4c3956117873 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a06ac6fdd36a4150b4c34d8e9d56c442 = $(`<div id="html_a06ac6fdd36a4150b4c34d8e9d56c442" style="width: 100.0%; height: 100.0%;">ESTOY AQUI</div>`)[0];
+            popup_c2dc5d26d58e41748b3d4c3956117873.setContent(html_a06ac6fdd36a4150b4c34d8e9d56c442);
+        
+
+        circle_ecf69fe4618d4aa1b74f572ba93b5833.bindPopup(popup_c2dc5d26d58e41748b3d4c3956117873)
+        ;
+
+        
+    
+    
+            var marker_0f980e9ba1d4483f8f43c7591f2ab599 = L.marker(
+                [39.4749381, -0.3458633],
+                {}
+            ).addTo(map_df4c257ce0e845febb7f22f3cdbe1cb6);
+        
+    
+            var icon_c5aa614544b94931a5dc6dff240d4592 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0f980e9ba1d4483f8f43c7591f2ab599.setIcon(icon_c5aa614544b94931a5dc6dff240d4592);
+        
+    
+        var popup_9342c9c8efcb47a895e10a3c98c6fae1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_31906364201d44ce9242a02be01d61a5 = $(`<div id="html_31906364201d44ce9242a02be01d61a5" style="width: 100.0%; height: 100.0%;">Valhalla Valencia | Cervecería artesanal - Craft Beer ABIERTO Ranking: 4.7 - 210 reseña(s)  </div>`)[0];
+            popup_9342c9c8efcb47a895e10a3c98c6fae1.setContent(html_31906364201d44ce9242a02be01d61a5);
+        
+
+        marker_0f980e9ba1d4483f8f43c7591f2ab599.bindPopup(popup_9342c9c8efcb47a895e10a3c98c6fae1)
+        ;
+
+        
+    
+    
+            var marker_1a29d6558c08470db275f3c282caa491 = L.marker(
+                [39.4627142, -0.3673312],
+                {}
+            ).addTo(map_df4c257ce0e845febb7f22f3cdbe1cb6);
+        
+    
+            var icon_5f1ff060c90b4eee954865472caf8e04 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_1a29d6558c08470db275f3c282caa491.setIcon(icon_5f1ff060c90b4eee954865472caf8e04);
+        
+    
+        var popup_936c796d357a45dbb6344e7909acf92e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6f3ad9abe33042828c6baf5e4b8711a4 = $(`<div id="html_6f3ad9abe33042828c6baf5e4b8711a4" style="width: 100.0%; height: 100.0%;">La Boutique de la Cerveza CERRADO Ranking: 4.7 - 220 reseña(s)  </div>`)[0];
+            popup_936c796d357a45dbb6344e7909acf92e.setContent(html_6f3ad9abe33042828c6baf5e4b8711a4);
+        
+
+        marker_1a29d6558c08470db275f3c282caa491.bindPopup(popup_936c796d357a45dbb6344e7909acf92e)
+        ;
+
+        
+    
+    
+            var marker_6fe581731c3f4e50afa6c7254195421c = L.marker(
+                [39.4860733, -0.3582687],
+                {}
+            ).addTo(map_df4c257ce0e845febb7f22f3cdbe1cb6);
+        
+    
+            var icon_ea851e3b96ba4d16a0d61527b4127bcd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_6fe581731c3f4e50afa6c7254195421c.setIcon(icon_ea851e3b96ba4d16a0d61527b4127bcd);
+        
+    
+        var popup_5722621b0e3647afa8b9af935b1a4061 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2fb2d35f579448dc97e09f3de38deb38 = $(`<div id="html_2fb2d35f579448dc97e09f3de38deb38" style="width: 100.0%; height: 100.0%;">Cervezas Artesanas-Hidromiel CERRADO Ranking: 4.6 - 56 reseña(s)  </div>`)[0];
+            popup_5722621b0e3647afa8b9af935b1a4061.setContent(html_2fb2d35f579448dc97e09f3de38deb38);
+        
+
+        marker_6fe581731c3f4e50afa6c7254195421c.bindPopup(popup_5722621b0e3647afa8b9af935b1a4061)
+        ;
+
+        
+    
+    
+            var marker_48310c83f7614cf0b808bf7957ce9bc4 = L.marker(
+                [39.4750669, -0.3650515],
+                {}
+            ).addTo(map_df4c257ce0e845febb7f22f3cdbe1cb6);
+        
+    
+            var icon_2960ad8fb7f7480cb7fd5578860b31e2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_48310c83f7614cf0b808bf7957ce9bc4.setIcon(icon_2960ad8fb7f7480cb7fd5578860b31e2);
+        
+    
+        var popup_5d4dc4305b7d4a0cb12aaa26b483ade0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dad188ff1b0a4dc884731211f35af56c = $(`<div id="html_dad188ff1b0a4dc884731211f35af56c" style="width: 100.0%; height: 100.0%;">BARBACANA ABIERTO Ranking: 4.6 - 357 reseña(s)  </div>`)[0];
+            popup_5d4dc4305b7d4a0cb12aaa26b483ade0.setContent(html_dad188ff1b0a4dc884731211f35af56c);
+        
+
+        marker_48310c83f7614cf0b808bf7957ce9bc4.bindPopup(popup_5d4dc4305b7d4a0cb12aaa26b483ade0)
+        ;
+
+        
+    
+    
+            var marker_467dae6719164c2a868d0018c73cbb51 = L.marker(
+                [39.4736559, -0.3447757],
+                {}
+            ).addTo(map_df4c257ce0e845febb7f22f3cdbe1cb6);
+        
+    
+            var icon_b162b607a8de4942a2b05bec00c70470 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_467dae6719164c2a868d0018c73cbb51.setIcon(icon_b162b607a8de4942a2b05bec00c70470);
+        
+    
+        var popup_121c9a6d94ea4834bd4f53c96302210d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7851b16a773c4444aad2ba775e010881 = $(`<div id="html_7851b16a773c4444aad2ba775e010881" style="width: 100.0%; height: 100.0%;">1985 Cervecería Artesana CERRADO Ranking: 4.6 - 28 reseña(s)  </div>`)[0];
+            popup_121c9a6d94ea4834bd4f53c96302210d.setContent(html_7851b16a773c4444aad2ba775e010881);
+        
+
+        marker_467dae6719164c2a868d0018c73cbb51.bindPopup(popup_121c9a6d94ea4834bd4f53c96302210d)
+        ;
+
+        
+    
+    
+            var marker_785ee71a0f5f44a3b0e53480df349f51 = L.marker(
+                [39.4639023, -0.3367961],
+                {}
+            ).addTo(map_df4c257ce0e845febb7f22f3cdbe1cb6);
+        
+    
+            var icon_092e62429ea94888954ce66df560a150 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_785ee71a0f5f44a3b0e53480df349f51.setIcon(icon_092e62429ea94888954ce66df560a150);
+        
+    
+        var popup_c1b40a5a2a1340098ca620eab524f4de = L.popup({"maxWidth": "100%"});
+
+        
+            var html_be3c2a1d63374687be9cf9556153b5dd = $(`<div id="html_be3c2a1d63374687be9cf9556153b5dd" style="width: 100.0%; height: 100.0%;">Local beer valencia ABIERTO Ranking: 4.5 - 41 reseña(s)  </div>`)[0];
+            popup_c1b40a5a2a1340098ca620eab524f4de.setContent(html_be3c2a1d63374687be9cf9556153b5dd);
+        
+
+        marker_785ee71a0f5f44a3b0e53480df349f51.bindPopup(popup_c1b40a5a2a1340098ca620eab524f4de)
+        ;
+
+        
+    
+    
+            var marker_f91402c2f8ed48c5a6162cde46261789 = L.marker(
+                [39.465866, -0.368919],
+                {}
+            ).addTo(map_df4c257ce0e845febb7f22f3cdbe1cb6);
+        
+    
+            var icon_199f4c8d010b4175bfaa52daced09782 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_f91402c2f8ed48c5a6162cde46261789.setIcon(icon_199f4c8d010b4175bfaa52daced09782);
+        
+    
+        var popup_3982f94caf2646b58539eb0191af1f18 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c88b3829bf7c43ada0fa730c949e4385 = $(`<div id="html_c88b3829bf7c43ada0fa730c949e4385" style="width: 100.0%; height: 100.0%;">La Birrería - Cervecería Artesanal CERRADO Ranking: 4.5 - 4 reseña(s)  </div>`)[0];
+            popup_3982f94caf2646b58539eb0191af1f18.setContent(html_c88b3829bf7c43ada0fa730c949e4385);
+        
+
+        marker_f91402c2f8ed48c5a6162cde46261789.bindPopup(popup_3982f94caf2646b58539eb0191af1f18)
+        ;
+
+        
+    
+    
+            var marker_a1ce6130bd824e7a8141b3cdb0a92a88 = L.marker(
+                [39.4706899, -0.3423777],
+                {}
+            ).addTo(map_df4c257ce0e845febb7f22f3cdbe1cb6);
+        
+    
+            var icon_e376ed570af34b5495ea65771e1134d0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a1ce6130bd824e7a8141b3cdb0a92a88.setIcon(icon_e376ed570af34b5495ea65771e1134d0);
+        
+    
+        var popup_5cdf89dd233c46fa98e0cc7ebeaf7f90 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_abc61b3719524f2d9048bab56ccd8780 = $(`<div id="html_abc61b3719524f2d9048bab56ccd8780" style="width: 100.0%; height: 100.0%;">La Chula ABIERTO Ranking: 4.5 - 45 reseña(s)  </div>`)[0];
+            popup_5cdf89dd233c46fa98e0cc7ebeaf7f90.setContent(html_abc61b3719524f2d9048bab56ccd8780);
+        
+
+        marker_a1ce6130bd824e7a8141b3cdb0a92a88.bindPopup(popup_5cdf89dd233c46fa98e0cc7ebeaf7f90)
+        ;
+
+        
+    
+    
+            var marker_f90cbc83f63647bf8a57a36cd6e11662 = L.marker(
+                [39.4597899, -0.3471727],
+                {}
+            ).addTo(map_df4c257ce0e845febb7f22f3cdbe1cb6);
+        
+    
+            var icon_a799b3959703466eb9d544fa8c085114 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f90cbc83f63647bf8a57a36cd6e11662.setIcon(icon_a799b3959703466eb9d544fa8c085114);
+        
+    
+        var popup_410398e7b99f4d1faceb884febbadc2d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2091dea14bb44021849a12780844b4f0 = $(`<div id="html_2091dea14bb44021849a12780844b4f0" style="width: 100.0%; height: 100.0%;">Sanders Craftbeer ABIERTO Ranking: 4.4 - 169 reseña(s)  </div>`)[0];
+            popup_410398e7b99f4d1faceb884febbadc2d.setContent(html_2091dea14bb44021849a12780844b4f0);
+        
+
+        marker_f90cbc83f63647bf8a57a36cd6e11662.bindPopup(popup_410398e7b99f4d1faceb884febbadc2d)
+        ;
+
+        
+    
+    
+            var marker_e30a47a01abe4aadbdeda2025a2720d3 = L.marker(
+                [39.4628623, -0.3708089],
+                {}
+            ).addTo(map_df4c257ce0e845febb7f22f3cdbe1cb6);
+        
+    
+            var icon_edeb979de83c46db9aecd30e5bf3c402 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e30a47a01abe4aadbdeda2025a2720d3.setIcon(icon_edeb979de83c46db9aecd30e5bf3c402);
+        
+    
+        var popup_e960b4818c224c439b8fff63f8582efe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ec406c7e1a594a1bb7b288fb5408b120 = $(`<div id="html_ec406c7e1a594a1bb7b288fb5408b120" style="width: 100.0%; height: 100.0%;">Viu La Beer ABIERTO Ranking: 4.3 - 3 reseña(s)  </div>`)[0];
+            popup_e960b4818c224c439b8fff63f8582efe.setContent(html_ec406c7e1a594a1bb7b288fb5408b120);
+        
+
+        marker_e30a47a01abe4aadbdeda2025a2720d3.bindPopup(popup_e960b4818c224c439b8fff63f8582efe)
+        ;
+
+        
+    
+    
+            var marker_62ccd34a9d3042d5a3026c054dad57f0 = L.marker(
+                [39.4676509, -0.3653886],
+                {}
+            ).addTo(map_df4c257ce0e845febb7f22f3cdbe1cb6);
+        
+    
+            var icon_30d28c978e934f59aef1f5610ac9c2ca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_62ccd34a9d3042d5a3026c054dad57f0.setIcon(icon_30d28c978e934f59aef1f5610ac9c2ca);
+        
+    
+        var popup_9829ad299d8d41b6bcdb1d38b56eabfd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f258e93ad7f042c19b4e6dd09e0a677a = $(`<div id="html_f258e93ad7f042c19b4e6dd09e0a677a" style="width: 100.0%; height: 100.0%;">Cervecería Beer CERRADO Ranking: 4.3 - 4 reseña(s)  </div>`)[0];
+            popup_9829ad299d8d41b6bcdb1d38b56eabfd.setContent(html_f258e93ad7f042c19b4e6dd09e0a677a);
+        
+
+        marker_62ccd34a9d3042d5a3026c054dad57f0.bindPopup(popup_9829ad299d8d41b6bcdb1d38b56eabfd)
+        ;
+
+        
+    
+    
+            var marker_b67e2775db3f47728f74fe9e63cd0868 = L.marker(
+                [39.4688266, -0.3684044],
+                {}
+            ).addTo(map_df4c257ce0e845febb7f22f3cdbe1cb6);
+        
+    
+            var icon_9711df23e57947b3b7e3632d15b8727b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b67e2775db3f47728f74fe9e63cd0868.setIcon(icon_9711df23e57947b3b7e3632d15b8727b);
+        
+    
+        var popup_42d0469b87b644edb6126d2097a96816 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_84c20733e6de415c8b6d66038b96533e = $(`<div id="html_84c20733e6de415c8b6d66038b96533e" style="width: 100.0%; height: 100.0%;">Las Cervezas Del Mercado - Colón ABIERTO Ranking: 4.2 - 423 reseña(s)  </div>`)[0];
+            popup_42d0469b87b644edb6126d2097a96816.setContent(html_84c20733e6de415c8b6d66038b96533e);
+        
+
+        marker_b67e2775db3f47728f74fe9e63cd0868.bindPopup(popup_42d0469b87b644edb6126d2097a96816)
+        ;
+
+        
+    
+    
+            var marker_bf0ddc9b444945f591aeedbed66769ba = L.marker(
+                [39.4859433, -0.3260093],
+                {}
+            ).addTo(map_df4c257ce0e845febb7f22f3cdbe1cb6);
+        
+    
+            var icon_88eb5f4f6e7c483eb449a6b316827d57 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_bf0ddc9b444945f591aeedbed66769ba.setIcon(icon_88eb5f4f6e7c483eb449a6b316827d57);
+        
+    
+        var popup_23e59cfeda5843b48ef04ff127e44e27 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_23e26a9bbcbb4996be9b984285e1abdf = $(`<div id="html_23e26a9bbcbb4996be9b984285e1abdf" style="width: 100.0%; height: 100.0%;">Fábrica De Cerveza Artesanal Birra & Blues CERRADO Ranking: 4.0 - 38 reseña(s)  </div>`)[0];
+            popup_23e59cfeda5843b48ef04ff127e44e27.setContent(html_23e26a9bbcbb4996be9b984285e1abdf);
+        
+
+        marker_bf0ddc9b444945f591aeedbed66769ba.bindPopup(popup_23e59cfeda5843b48ef04ff127e44e27)
+        ;
+
+        
+    
+    
+            var marker_6d76cdd51fcc4923b8d3be45c23e26eb = L.marker(
+                [39.461739, -0.367423],
+                {}
+            ).addTo(map_df4c257ce0e845febb7f22f3cdbe1cb6);
+        
+    
+            var icon_755448acf4aa47bca5d737ea59318aba = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "remove-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6d76cdd51fcc4923b8d3be45c23e26eb.setIcon(icon_755448acf4aa47bca5d737ea59318aba);
+        
+    
+        var popup_03ade3c0d8c24fa5883cd5a0751b1e21 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7c7d361c3c684311bda5a74b46a906d6 = $(`<div id="html_7c7d361c3c684311bda5a74b46a906d6" style="width: 100.0%; height: 100.0%;">LOS TRAVIESOS - Cervezas y Tapas - VALENCIA ABIERTO Ranking: 2.9 - 17 reseña(s)  </div>`)[0];
+            popup_03ade3c0d8c24fa5883cd5a0751b1e21.setContent(html_7c7d361c3c684311bda5a74b46a906d6);
+        
+
+        marker_6d76cdd51fcc4923b8d3be45c23e26eb.bindPopup(popup_03ade3c0d8c24fa5883cd5a0751b1e21)
+        ;
+
+        
+    
+    
+            var marker_af56aa3ec38b46bb8ef0f77814fbbc32 = L.marker(
+                [39.4615404, -0.3356113],
+                {}
+            ).addTo(map_df4c257ce0e845febb7f22f3cdbe1cb6);
+        
+    
+            var icon_3b6db6b5e1a749afaea011d644b0f301 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "remove-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_af56aa3ec38b46bb8ef0f77814fbbc32.setIcon(icon_3b6db6b5e1a749afaea011d644b0f301);
+        
+    
+        var popup_c99fddbe502c4598ad0f8638f01b46c8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6521361407b54c6d821a8af5b51103ab = $(`<div id="html_6521361407b54c6d821a8af5b51103ab" style="width: 100.0%; height: 100.0%;">StoneCastle Brewery S.L. CERRADO Ranking: 0.0 - 0 reseña(s)  </div>`)[0];
+            popup_c99fddbe502c4598ad0f8638f01b46c8.setContent(html_6521361407b54c6d821a8af5b51103ab);
+        
+
+        marker_af56aa3ec38b46bb8ef0f77814fbbc32.bindPopup(popup_c99fddbe502c4598ad0f8638f01b46c8)
+        ;
+
+        
+    
+    
+            var marker_18dddb7522ad40d0914f2be78d2b79a9 = L.marker(
+                [39.465548, -0.3715471],
+                {}
+            ).addTo(map_df4c257ce0e845febb7f22f3cdbe1cb6);
+        
+    
+            var icon_1bf221de7880498cbb23c8569d7bfea7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "remove-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_18dddb7522ad40d0914f2be78d2b79a9.setIcon(icon_1bf221de7880498cbb23c8569d7bfea7);
+        
+    
+        var popup_14b47e27ffb049b69edeaab77a3da6d7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ad19019d6dce458884aabcfd35a2f262 = $(`<div id="html_ad19019d6dce458884aabcfd35a2f262" style="width: 100.0%; height: 100.0%;">Beershooter ABIERTO Ranking: 0.0 - 0 reseña(s)  </div>`)[0];
+            popup_14b47e27ffb049b69edeaab77a3da6d7.setContent(html_ad19019d6dce458884aabcfd35a2f262);
+        
+
+        marker_18dddb7522ad40d0914f2be78d2b79a9.bindPopup(popup_14b47e27ffb049b69edeaab77a3da6d7)
+        ;
+
+        
+    
+    
+            var marker_a76f6984c2184e799b2f7307f572f3e0 = L.marker(
+                [39.4659247, -0.3393298],
+                {}
+            ).addTo(map_df4c257ce0e845febb7f22f3cdbe1cb6);
+        
+    
+            var icon_3c008964722c47149faf84f93f8494fe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "remove-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_a76f6984c2184e799b2f7307f572f3e0.setIcon(icon_3c008964722c47149faf84f93f8494fe);
+        
+    
+        var popup_a5ae2637398447bbb796826a0d912254 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2a70787b3f4a490fb213ae2bc8602b62 = $(`<div id="html_2a70787b3f4a490fb213ae2bc8602b62" style="width: 100.0%; height: 100.0%;">Birra 365 CERRADO Ranking: 0.0 - 0 reseña(s)  </div>`)[0];
+            popup_a5ae2637398447bbb796826a0d912254.setContent(html_2a70787b3f4a490fb213ae2bc8602b62);
+        
+
+        marker_a76f6984c2184e799b2f7307f572f3e0.bindPopup(popup_a5ae2637398447bbb796826a0d912254)
+        ;
+
+        
+    
+</script>
