@@ -1,0 +1,23 @@
+.colorB {
+    font-weight: normal;
+    background-color: #00C882;
+    color: white
+}
+
+.colorB:hover,
+.colorB:active {
+    font-weight: bold;
+    background-color: #00f9a2;
+    color: white
+}
+
+.colorB:focus {
+    font-weight: normal;
+    background-color: #00C882;
+    outline: thick double #009360;
+    color: white
+}
+
+.smallFont {
+    font-size: small
+}
